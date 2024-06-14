@@ -1,0 +1,706 @@
+{
+    "intents":[
+        {
+            "tag":"you need a break",
+            "patterns":["bye!","goodbye","see you later!","exit.","bye bye","chal phir milte hai","chala ja bhosdike","bye jarvis","you need a break","no you can sleep now","no you can leave now","Ok Jarvis you can sleep now","go now"
+            ],
+            "responses":["you need a break"
+            ]
+        },
+
+                {
+                "tag":"health",
+                "patterns":["how are you","are you good","kaisa hai mera bhai","kaise ho"
+                ],
+                "responses":["fine sir","perfect","cool",
+                    "By recogizing your voice sir you look alright, so I am fine","great as always","I am fine, how about you sir?",
+                    "I'm doing fine sir.",
+                    "I'm doing well sir and how about you?",
+                    "I am fine as always sir.",
+                    "I am fine as long as you maintain your computer."
+                ]
+            },
+                        {
+                    "tag":"angry",
+                    "patterns":["get lost","fuck off","please be quiet","I hate you","chutiya","shant ho ja"
+                    ],
+                    "responses":["Is there anything that would help to clam down your anger?",
+                        "I will always there to help you out, I apologize if my words make you angry","Is everything is alright sir?",
+                        "Would I play music or joke to clam down your mood?","Looks like you have a rough day today, is there anything I may help you with?","should I tell you some joke sir"
+                    ]
+                },
+                    {
+                        "tag":"identity",
+                        "patterns":["tell me about yourself","who are you","kaun ho tum","bhai tu kaun hai"
+                        ],
+                        "responses":["I am Jarvis sir your AI assistant",
+                            "jarvis sir, your lifetime buddy","My name is Jarvin sir an artificial intelligence created by pramod salvi",
+                            "jarvis","You can call me jarvis sir I am your AI, is there anything I may help you with?"
+                        ]   
+                    },
+                        {
+                            "tag":"sad",
+                            "patterns":["sad today","life is tough","everyone hate me","I am sad today","I am feeling sad today",
+                                "it hurts","time kharab chal raha hai aaj kal","din he kharab hai aaj ka","Jarvis sad please don't talk to me"
+                            ],
+                            "responses":["I apologize for your experience Sir,If I was at your place , I would have felt the same as you are feeling now",
+                                "Do not worry sir, I will help you with your concern","If I were in your position, I would feel just as you do",
+                                "There are no word that I can say to make you feel better but be rest assured I will be always there in your hard times ","By recognizing your voice I understand how you are felling right now but please let me know is there anything that will make you happy? should I tell you some jokes"
+                            ]   
+                        },
+                            {
+                                "tag":"No",
+                                "patterns":["No","don't do it","Nope","stop it","nahin","Shant ho ja","please be quiet",
+                                    "definetely not"
+                                ],
+                                "responses":["Sure sir",
+                                    "Alright","Okay",
+                                    "please let me know if anything comes up ","okay sir"
+                                ]   
+                            },
+                                    {
+                                    "tag":"time",
+                                    "patterns":["what's the time","time","tell me the time",
+                                        "current time","waqt","kya time hua hai"
+                                    ],
+                                    "responses":["time"
+                                    ]   
+                                },
+                                        {
+                                        "tag":"date",
+                                        "patterns":["what's the date","date","tell me the date",
+                                            "today's date","tarikh","date kya hai aaj ka"
+                                        ],
+                                        "responses":["date"
+                                        ]   
+                                    },
+                                            {
+                                            "tag":"day",
+                                            "patterns":["what's the day","tell me day","day","tell me the date",
+                                                "today","din","din kya hai aaj ka"
+                                            ],
+                                            "responses":["day"
+                                            ]   
+                                        },
+                                                {
+                                                "tag":"wikipedia",
+                                                "patterns":["who is","about","what is","according to wikipedia","tell me about",
+                                                    "wikipedia"
+                                                ],
+                                                "responses":["wikipedia"
+                                                ]   
+                                            },
+                                                    {
+                                                    "tag":"open google",
+                                                    "patterns":["google","search","google search","open google"
+                                                    ],
+                                                    "responses":["open google"
+                                                    ]   
+                                                },
+                                                        {
+                                                        "tag":"close google",
+                                                        "patterns":["close google","close"
+                                                        ],
+                                                        "responses":["close google"
+                                                        ]   
+                                                    },
+                                                            {
+                                                            "tag":"open instagram",
+                                                            "patterns":["instagram","open instagram"
+                                                            ],
+                                                            "responses":["open instagram"
+                                                            ]   
+                                                        },
+                                                                {
+                                                                "tag":"close instagram",
+                                                                "patterns":["close instagram"
+                                                                ],
+                                                                "responses":["close instagram"
+                                                                ]   
+                                                            },
+                                                                    {
+                                                                    "tag":"open facebook",
+                                                                    "patterns":["facebook","open facebook"
+                                                                    ],
+                                                                    "responses":["open facebook"
+                                                                    ]   
+                                                                },
+                                                                        {
+                                                                        "tag":"close facebook",
+                                                                        "patterns":["close facebook"
+                                                                        ],
+                                                                        "responses":["close facebook"
+                                                                        ]   
+                                                                    },
+                                                                            {
+                                                                            "tag":"open youtube",
+                                                                            "patterns":["youtube","open youtube","start Youtube","start youtube"
+                                                                            ],
+                                                                            "responses":["open youtube"
+                                                                            ]   
+                                                                        },
+                                                                                {
+                                                                                "tag":"close youtube",
+                                                                                "patterns":["close youtube","close YouTube","stop youtube","stop Youtube"
+                                                                                ],
+                                                                                "responses":["close youtube"
+                                                                                ]   
+                                                                            },
+                                                                                    {
+                                                                                    "tag":"GOOD MORNING",
+                                                                                    "patterns":["good morning","morning"],
+                                                                                    "responses":[
+                                                                                        "Good morning and hello sir.",
+                                                                                        "Well good morning sir have a good day today.",
+                                                                                        "Good morning sir.",
+                                                                                        "Good morning and have a great day sir."
+                                                                                    ]
+                                                                                },
+                                                                                        {
+                                                                                        "tag":"GOOD NIGHT",
+                                                                                        "patterns":["going to sleep","sleeping now","good night"
+                                                                                        ],
+                                                                                        "responses":["Good night sir.",
+                                                                                            "Well Good night sir.",
+                                                                                            "Good night sir have a good sleep tonight.",
+                                                                                            "Good night and have a good sleep sir."
+                                                                                        ]   
+                                                                                    },
+                                                                                                {
+            "tag":"GOOD AFTERNOON",
+            "patterns":["good afternoon","afternoon"],
+            "responses":[
+                "Good afternoon and hello sir.",
+                "Well good afternoon sir",
+                "Good afternoon sir."
+            ]
+        },
+                                                                                                    {
+            "tag":"GOOD EVENING",
+            "patterns":["good evening","evening"],
+            "responses":[
+                "Good evening and hello sir.",
+                "Well good evening sir",
+                "Good evening sir."
+            ]
+        },
+                                                                                                            {
+            "tag":"open notepad",
+            "patterns":["open notepad","note","notepad","please open notepad","notepad open karo","notepad ko open karo"
+            ],
+            "responses":["open notepad"
+            ]   
+        },
+        {
+            "tag":"close notepad",
+            "patterns":["close notepad","stop notepad","band kardo notepad ko","please close notepad"
+            ],
+            "responses":["close notepad"
+            ]   
+        },
+                                                                                                                {
+            "tag":"DOING FINE",
+            "patterns":["I am fine","I am alright","great as always","feeling superb","DOING OK","AM HEALTHY"
+            ],
+            "responses":["Well good to know sir.",
+            "I am glad to hear about you, Keep Exercising.",
+            "So you are in good shape.",
+            "Well that is happy to know sir."
+            ]   
+        },
+                                                                                                                    {
+            "tag":"open excel",
+            "patterns":["open excel","excel","microsoft excel","please open excel","excel open karo","excel ko open karo"
+            ],
+            "responses":["open excel"
+            ]   
+        },
+        {
+            "tag":"close excel",
+            "patterns":["close excel","stop excel","band kardo excel ko","please close excel"
+            ],
+            "responses":["close excel"
+            ]   
+        },
+                                                                                                                            {
+            "tag":"open word",
+            "patterns":["open word","word","microsoft word","please open word","word open karo","microsoft word ko open karo"
+            ],
+            "responses":["open word"
+            ]   
+        },
+        {
+            "tag":"close word",
+            "patterns":["close word","stop word","band kardo word ko","please close word","close microsoft word"
+            ],
+            "responses":["close word"
+            ]   
+        },
+                                                                                                                                {
+            "tag":"open chrome",
+            "patterns":["open chrome","chrome","please open chrome","chrome open karo","chrome ko open karo"
+            ],
+            "responses":["open chrome"
+            ]   
+        },
+                                                                                                                                    {
+            "tag":"close chrome",
+            "patterns":["close chrome","stop chrome","band kardo chrome ko"
+            ],
+            "responses":["close chrome"
+            ]   
+        },
+                                                                                                                                        {
+            "tag":"open vlc",
+            "patterns":["open vlc","vlc","video player","please open vlc","vlc open karo","video player ko open karo","vlc ko open karo please"
+            ],
+            "responses":["open vlc"
+            ]   
+        },
+                                                                                                                                            {
+            "tag":"close vlc",
+            "patterns":["close vlc","stop vlc","band kardo vlc ko"
+            ],
+            "responses":["close vlc"
+            ]   
+        },
+                                                                                                                                                {
+            "tag":"open cmd",
+            "patterns":["open cmd","cmd","command prompt","please open cmd","cmd open karo","command prompt ko open karo"
+            ],
+            "responses":["open cmd"
+            ]   
+        },
+                                                                                                                                                    {
+            "tag":"close cmd",
+            "patterns":["close cmd","stop cmd","band kardo cmd ko"
+            ],
+            "responses":["close cmd"
+            ]   
+        },
+                                                                                                                                                        {
+            "tag":"camera",
+            "patterns":["open camera","camera","please open my camera","camera open karo"
+            ],
+            "responses":["camera"
+            ]   
+        },
+                                                                                                                                                            {
+            "tag":"ip address",
+            "patterns":["ip address","ip","tell me my ip address","what's my ip address"
+            ],
+            "responses":["ip address"
+            ]   
+        },
+                                                                                                                                                                {
+            "tag":"alarm",
+            "patterns":["set alarm","alarm","alarm clock"
+            ],
+            "responses":["alarm"
+            ]   
+        },
+                                                                                                                                                                    {
+            "tag":"go baby go",
+            "patterns":["go baby go"
+            ],
+            "responses":["go baby go"
+            ]   
+        },
+                                                                                                                                                                        {
+            "tag":"run baby run",
+            "patterns":["restarting the system","restart kardo laptop ko","run baby run"
+            ],
+            "responses":["run baby ran"
+            ]   
+        },
+                                                                                                                                                                            {
+            "tag":"all is well",
+            "patterns":["sleep the laptop","sleeping mode","sleep kardo laptop ko","all is well"
+            ],
+            "responses":["all is well"
+            ]   
+        },
+                                                                                                                                                                                {
+            "tag":"HELLO",
+            "patterns":["hello","hii","hey","wake up","jarvis","jarvis bhai"],
+            "responses":[
+                "Well hello sir, what's up",
+                "Hello sir, anything for you",
+                "Welcome and hello sir.",
+                "Hello sir, how are you?",
+                "Hello there",
+                "Here's is your Assistant",
+                "Hey Boss.",
+                "How are you Sir"
+            ]
+        },
+                                                                                                                                                                                    {
+            "tag":"I AM SICK",
+            "patterns":["i am sick","not feeling well","headache","stomach ache","pain","NOT DOING WELL"
+            ],
+            "responses":["You should consult a doctor quickly.",
+                "Well that is bad, hope for a speedy recovery :-)",
+               "You should go and rest sir.",
+                "I am sorry to hear that sir hope for a speedy recovery:-)"
+            ]  
+        },
+                                                                                                                                                                                        {
+            "tag":"YES I AM",
+            "patterns":["yes i am","sure i am","yes always","yes i will"
+            ],
+            "responses":["Great sir.",
+                "Good to know sir.",
+                "Happy to know sir.",
+                "Great to know sir."
+            ]   
+        },
+                                                                                                                                                                                            {
+            "tag":"FOR A VACATION",
+            "patterns":["going outside","want to go far away","for a vacation","picnic"
+            ],
+            "responses":["That is great sir, would you need any help.",
+                "That is awesome sir, stay safe and good luck.",
+                "Good to know pls take a look and follow the covid-19 guidelines.",
+                "Awesome news sir, is there anything i can help with."
+            ]   
+        },
+                                                                                                                                                                                                {
+            "tag":"THANK YOU",
+            "patterns":["thankyou","it's okay","thanks","TO KNOW"
+            ],
+            "responses":["No problem sir.",
+                "No problem your welcome sir.",
+                "No problem it is my duty to help you sir.",
+                "Your welcome sir it is my duty."
+            ]   
+        },
+        {
+            "tag":"Cool",
+            "patterns":["cool","awesome"
+            ],
+            "responses":["Glad that you are impressed sir.",
+                "It seems that my service is satisfactory.",
+                "Thanks for the feedback looks like you're enjoying my service."
+            ]   
+        },
+        {
+            "tag":"ARE WRONG",
+            "patterns":["you are wrong","wrong","tum galat ho","that's not right"
+            ],
+            "responses":["Why are you saying that i'm wrong?",
+                "Impossible, computers cannot make mistakes.",
+                "Wrong about what sir?",
+                "Can you please explain to me why i was wrong?"
+            ]   
+        },
+        {
+            "tag":"YOU REAL",
+            "patterns":["you real","for real dude","pagal ho kya"
+            ],
+            "responses":["Well i am sir that is till you turn me off!!!",
+                "Well i am real till you keep me on",
+                "I am real till you turn off this computer."
+            ]   
+        },
+        {
+            "tag":"YOU A ROBOT",
+            "patterns":["you a robot","you are a toy","robot ho tum","toy ho tum"
+            ],
+            "responses":[ "Yes i'm a robot but a smart one!",
+                "Yes i am, but a good one. let me prove it. how can i help you?",
+                "I am real till you turn off this computer."
+            ]   
+        },
+        {
+            "tag":"ARE YOU BUILT",
+            "patterns":["are you build","building language","kaise bane ho tum","are you made"
+            ],
+            "responses":["Well i am built using a language called python.",
+                "I was coded on a computer using python sir.",
+                "I was coded using python and i had to undergo many challenges.",
+                "I was built using python to do tasks and json to store critical information."
+            ]   
+        },
+        {
+            "tag":"A MAN OF CULTURE",
+            "patterns":["man of culture","death note","series"
+            ],
+            "responses":["I am sir.",
+                "Do you watch anime sir?"
+            ]   
+        },
+        {
+            "tag":"GAMES DO YOU",
+            "patterns":["game do you","your favourite game"
+            ],
+            "responses":["I like games like Minecraft, Terraria.",
+                "Minecraft is cool and also you can contribute to the community using add-ons.",
+                "Minecraft cause you can code in it and create add-ons.",
+                "I prefer Minecraft get ready for the wild update."
+            ]   
+        },
+        {
+            "tag":"JARVIS",
+            "patterns":["jarvis","are you there"
+            ],
+            "responses":[
+                "yes sir?",
+                "Do you have something to say sir","I am here","yes sir just listening your conversation"
+            ]   
+        },
+        {
+            "tag":"SAY SOMETHING",
+            "patterns":["SAY SOMETHING","kuch to bol"
+            ],
+            "responses":[
+                "Well sir sometimes I don't have anything to say."
+            ]   
+        },
+        {
+            "tag":"OK",
+            "patterns":["OK","Okay"
+            ],
+            "responses":[
+                "nice",
+                "No problem"
+            ]   
+        },
+        {
+            "tag":"joke",
+            "patterns":["tell me jokes","tell me joke","joke","I would like to listen some jokes"
+            ],
+            "responses":["joke"
+            ]   
+        },
+        {
+            "tag":"sure",
+            "patterns":["sure","alrighr get it"
+            ],
+            "responses":[
+                " "
+            ]   
+        },
+        {
+            "tag":"switch the window",
+            "patterns":["switch the window","switch window","change window","window"
+            ],
+            "responses":["switch the window"
+            ]   
+        },
+        {
+            "tag":"news",
+            "patterns":["tell me the news","latest news"
+            ],
+            "responses":["news"
+            ]   
+        },
+        {
+            "tag":"current location",
+            "patterns":["current location","where i am","where are we"
+            ],
+            "responses":["current location"
+            ]   
+        },
+        {
+            "tag":"play music",
+            "patterns":["play music","bajna chahiye gana","listen music","play some music","I want to hear some music"
+            ],
+            "responses":["play music"
+            ]   
+        },
+        {
+            "tag":"pause",
+            "patterns":["pause","stop","pause video","stop video","start video","start the video"
+            ],
+            "responses":["pause"
+            ]   
+        },
+        {
+            "tag":"restart",
+            "patterns":["retart video","restart","phirse video shuru karo"
+            ],
+            "responses":["restart"
+            ]   
+        },
+        {
+            "tag":"mute",
+            "patterns":["mute"
+            ],
+            "responses":["mute"
+            ]   
+        },
+        {
+            "tag":"skip",
+            "patterns":["skip video","skip"
+            ],
+            "responses":["skip"
+            ]   
+        },
+        {
+            "tag":"back",
+            "patterns":["back video","back"
+            ],
+            "responses":["back"
+            ]   
+        },
+        {
+            "tag":"full screen",
+            "patterns":["full screen"
+            ],
+            "responses":["full screen"
+            ]   
+        },
+        {
+            "tag":"film mode",
+            "patterns":["film mode"
+            ],
+            "responses":["film mode"
+            ]   
+        },
+        {
+            "tag":"youtube tool",
+            "patterns":["youtube tool","tool please"
+            ],
+            "responses":["youtube tool"
+            ]   
+        },
+        {
+            "tag":"open new tab",
+            "patterns":["open new tab","new tab"
+            ],
+            "responses":["open new tab"
+            ]   
+        },
+        {
+            "tag":"close the tab",
+            "patterns":["close the tab","close tab"
+            ],
+            "responses":["close tab"
+            ]   
+        },
+        {
+            "tag":"open new window",
+            "patterns":["open new window"
+            ],
+            "responses":["open new window"
+            ]   
+        },
+        {
+            "tag":"history",
+            "patterns":["open history"
+            ],
+            "responses":["history"
+            ]   
+        },
+        {
+            "tag":"website",
+            "patterns":["open website","website","new arts college ahmednagar website","open savitribai phule website","savitribai phule exam form website","examform.unipune.ac.in/"
+            ],
+            "responses":["website"
+            ]   
+        },
+        {
+            "tag":"launch",
+            "patterns":["launch"
+            ],
+            "responses":["launch"
+            ]   
+        },
+        {
+            "tag":"temperature",
+            "patterns":["temperature","today cold outside","today hot outside","what's the temperature"
+            ],
+            "responses":["temperature"
+            ]   
+        },
+        {
+            "tag":"repeat my word",
+            "patterns":["repeat my word","mere piche bolo","jarvis repeat my word","repeat after me"
+            ],
+            "responses":["repeat my word"
+            ]   
+        },
+        {
+            "tag":"my location",
+            "patterns":["my location","tell my exact location","what's my loaction","tell me my location"
+            ],
+            "responses":["my location"
+            ]   
+        },
+        {
+            "tag":"screenshot",
+            "patterns":["screenshot","jarvis take a screenshot","jarvis capture the screen"
+            ],
+            "responses":["screenshot"
+            ]   
+        },
+        {
+            "tag":"remember that",
+            "patterns":["jarvis remember that","I forgot things can you please remember","Main bhuljata hu kabhi kabhi","I think I will forgot","remember"
+            ],
+            "responses":["remember that"
+            ]   
+        },
+        {
+            "tag":"what do you remember",
+            "patterns":["jarvis what do you remember","jarvis please open remember data","jarvis kya yaad rakhne bola tha","kya yaad hai tumhi"
+            ],
+            "responses":["what do you remember"
+            ]   
+        },
+        {
+            "tag":"how to",
+            "patterns":["jarvis how to","jarvis how to do that","jarvis Voh kese karte hai","jarvis please tell me how to","jarvis tell me how to"
+            ],
+            "responses":["how to"
+            ]   
+        },
+        {
+            "tag":"close map",
+            "patterns":["close map"
+            ],
+            "responses":["close map"
+            ]   
+        },
+        {
+            "tag":"happy",
+            "patterns":["good mood","I am happy","kush hu"
+            ],
+            "responses":["if you are happy I am happy too","glad to hear that","it's really nice as happiness lowers your risk for cardiovascular disease, lowers your blood pressure, enables better sleep, improves your diet, allows you to maintain a normal body weight through regular exercise and reduces stress."
+            ]   
+        },
+        {
+            "tag":"tember",
+            "patterns":["because idiot","because stupid","because gandu","because not listen","because why you"
+            ],
+            "responses":["I am sorry sir","I am still learning sir, one day I will live as per your exceptation","I apologize sir"
+            ]   
+        },
+        {
+            "tag": "help",
+            "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+            "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        },
+        {
+            "tag":"love",
+            "patterns":["I love you","I like you"
+            ],
+            "responses":["Thankyou sir, glad to hear that","I love you too sir","I have a girlfriend, request you to please found someone else"
+            ]   
+        },
+        {
+            "tag":"but love",
+            "patterns":["but I love you","but like you"
+            ],
+            "responses":["I am really sorry but it is not possible","should I find a girlfriend for you","I will think about it"
+            ]   
+        },
+        {
+            "tag":"brothers",
+            "patterns":["brothers","who are my brothers"
+            ],
+            "responses":["Your brothers are pratik magar, prajwal magar for you both are bunty dada and sonu and sumeet salvi","praik magar and sonu magar for you bunty dada and sonu for you from ahmednagar, pratik has completed his graduation in BCS computer science and working in shreedeep hospital and sonu is stupid and there are two more Dheeraj and aman from pune city"
+            ]   
+        }
+    ]    
+}
