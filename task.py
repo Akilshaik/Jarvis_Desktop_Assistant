@@ -466,7 +466,7 @@ def screenshot():
    
         
         
-Say("sir, do you have any other work")
+#Say("sir, do you have any other work")
 
 
 
