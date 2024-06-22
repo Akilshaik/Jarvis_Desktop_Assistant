@@ -2,13 +2,17 @@ import tkinter as tk
 from tkinter import ttk ,Text
 from PIL import Image, ImageTk
 import Speak
+from tkinter import Text, RIGHT, END
 import jarvis
-import Listen
-from Listen import Listen,yousaid
+
+import datetime
+#import Listen
+#from Listen import yousaid
 
 #import jarvis 
 
 #mian=jarvis.Main()
+
 
 
 root= tk.Tk()
@@ -27,12 +31,15 @@ label.place(x=0, y=0, relwidth=1, relheight=1)
 
 
 def on_button_click():
-    print("Button clicked!")
+    text_area.insert('3.0',"\nJarvis is live now.....\n")
     
     Speak.wishMe()
     while True:
-        #jarvis.Main()
-        print(yousaid)
+        jarvis.Main()
+    
+
+        
+
         
 
 def close():
@@ -63,12 +70,21 @@ def create_transparent_text_area(root, width, height, x, y):
     text_widget = Text(canvas,wrap='word', bg='black', fg='green', insertbackground='green', font=('Helvetica', 14))
     text_widget.place(x=0, y=0, width=width, height=height)
     
+
+    
     
     
 
     return text_widget
+now = datetime.datetime.now()
+
+formatted_time = now.strftime("%H:%M:%S")
 
 text_area = create_transparent_text_area(root, width=500, height=200, x=300, y=300)
+today = datetime.date.today()
+text_area.insert('1.0', f"Time : {formatted_time}")
+
+text_area.insert('1.0', f"Today : {today}\n")
 
 
 
@@ -77,4 +93,9 @@ text_area = create_transparent_text_area(root, width=500, height=200, x=300, y=3
 
 
 
-root.mainloop() 
+
+
+
+
+
+root.mainloop()
