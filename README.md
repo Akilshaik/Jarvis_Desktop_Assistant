@@ -1,4 +1,4 @@
-# Jarvis AI Assistant
+# Jarvis Desktop Assistant
 
 Jarvis is a voice-activated AI assistant built using Python. It leverages various libraries and APIs for functionalities such as voice recognition, text-to-speech, web searches, and more. The assistant has a graphical user interface (GUI) built with tkinter.
 
