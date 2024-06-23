@@ -1,0 +1,12 @@
+tkinter
+pillow
+speechrecognition
+pyttsx3
+pywhatkit
+wikipedia
+pyjokes
+torch
+opencv-python
+requests
+keyboard
+newsapi-python
