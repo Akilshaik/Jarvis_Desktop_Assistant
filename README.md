@@ -15,7 +15,7 @@ Jarvis is a voice-activated AI assistant built using Python. It leverages variou
 
 ## Home Page
 
-![Home Page](images/jarvisDashboard.jpeg)
+![Home Page](images/Home_Page.png)
 
 ## Getting Started
 
