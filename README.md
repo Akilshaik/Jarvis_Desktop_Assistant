@@ -25,5 +25,5 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jarvis-ai-assistant.git
-   cd jarvis-ai-assistant
+   git clone https://github.com/Akilshaik/Jarvis_Desktop_Assistant.git
+   cd Jarvis_Desktop_Assistant
