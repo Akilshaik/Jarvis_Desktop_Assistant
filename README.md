@@ -1,6 +1,6 @@
-# Jarvis Desktop Assistant
+# Neuronix
 
-Jarvis is a voice-activated AI assistant built using Python. It leverages various libraries and APIs for functionalities such as voice recognition, text-to-speech, web searches, and more. The assistant has a graphical user interface (GUI) built with tkinter.
+Neuronix is a voice-activated AI assistant built using Python. It leverages various libraries and APIs for functionalities such as voice recognition, text-to-speech, web searches, and more. The assistant has a graphical user interface (GUI) built with tkinter.
 
 ## Features
 - Voice recognition and response
@@ -29,5 +29,5 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Akilshaik/Jarvis_Desktop_Assistant.git
-   cd Jarvis_Desktop_Assistant
+   git clone https://github.com/Akilshaik/Neuronix_Desktop_Assistant.git
+   cd Neuronix
