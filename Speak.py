@@ -9,7 +9,7 @@ def Say(audio):
     engine.setProperty('voices',voices[0].id)
     engine.setProperty('rate',170)  
     print("   ")
-    print(f"Jarvis A.I : {audio}")
+    print(f"Neuronix A.I : {audio}")
     engine.say(audio)
     print("   ")
     engine.runAndWait()
@@ -31,8 +31,8 @@ def wishMe():
         Say(f"Good Evening Akil, its {tt}")
         wish=f"Good Evening Akil, its {tt}"
 
-    Say("Hello Akil I am Jarvis, please tell me how may I help you?")
-    wish="Hello Akil I am Jarvis, please tell me how may I help you?"
+    Say("Hello Akil I am Neuronix, please tell me how may I help you?")
+    wish="Hello Akil I am Neuronix, please tell me how may I help you?"
 
 
 

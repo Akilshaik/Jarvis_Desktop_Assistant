@@ -52,7 +52,7 @@ input_size = len(x_train[0])
 hidden_size = 8
 output_sze = len(tags)
 
-print("Traning the Jarvis...")
+print("Traning the Neuronix...")
 
 class ChatDataset(Dataset):
 

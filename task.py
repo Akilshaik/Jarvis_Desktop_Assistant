@@ -229,7 +229,7 @@ def NonInputExecution(query):
 
     elif 'remember that' in query:
             remeberMsg = query.replace("remember that","")
-            remeberMsg = remeberMsg.replace("jarvis","")
+            remeberMsg = remeberMsg.replace("Neuronix","")
             Say("You Tell Me To Remind You That :"+remeberMsg)
             remeber = open('data.txt','w')
             remeber.write(remeberMsg)
@@ -241,7 +241,7 @@ def NonInputExecution(query):
 
     elif 'you need a break' in query:
             Say("Ok Sir , You Can Call Me Anytime !")
-            Say("Just Say Wake Up Jarvis!")
+            Say("Just Say Wake Up Neuronix!")
             sys.exit()    
    
             
@@ -279,7 +279,7 @@ def InputExecution(tag,query):
 
     elif 'how to' in query:
             Say("Getting Data From The Internet !")
-            op = query.replace("jarvis","")
+            op = query.replace("Neuronix","")
             max_result = 1
             how_to_func = search_wikihow(op,max_result)
             assert len(how_to_func) == 1
@@ -309,7 +309,7 @@ def InputExecution(tag,query):
 
     elif 'website' in tag:
             Say("Ok Sir , Launching.....")
-            query = query.replace("open","").replace("jarvis","")
+            query = query.replace("open","").replace("Neuronix","")
             query = query.replace(" ","")
             web1 = query.replace("website","")
             web2 = 'https://www.' + web1 + '.com'
@@ -454,10 +454,10 @@ def screenshot():
         Say("Ok Boss , What Should I Name That File ?")
         path = Listen()
         path1name = path + ".png"
-        path1 = "C:\\Users\\salvi\\Pictures\\JarvisScreenST\\"+ path1name
+        path1 = "C:\\Users\\salvi\\Pictures\\NeuronixScreenST\\"+ path1name
         kk = pyautogui.screenshot()
         kk.save(path1)
-        os.startfile("C:\\Users\\salvi\\Pictures\\JarvisScreenST\\")
+        os.startfile("C:\\Users\\salvi\\Pictures\\NeuronixScreenST\\")
         Say("Here Is Your ScreenShot")                     
 
                         

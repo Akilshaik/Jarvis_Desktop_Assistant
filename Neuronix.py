@@ -33,7 +33,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 #--------------------------------------------
-Name = "Jarvis"
+Name = "Neuronix"
 
 from Listen import Listen
 from Speak import Say
